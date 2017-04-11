@@ -1,3 +1,10 @@
 .header {
+  display: flex;
+  justify-content: center;
   font-family: 'News Cycle', sans-serif;
+}
+
+.header-name {
+  font-weight: bold;
+  font-size: 16px;
 }
