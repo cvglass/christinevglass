@@ -1,10 +1,16 @@
 .header {
+  font-family: 'Homemade Apple', cursive;
   display: flex;
   justify-content: center;
   font-family: 'News Cycle', sans-serif;
 }
 
 .header-name {
+  font-family: 'Homemade Apple', cursive;
   font-weight: bold;
   font-size: 16px;
+}
+
+.about-question {
+  font-family: 'Homemade Apple', cursive;
 }
