@@ -7,6 +7,7 @@ import {connect, Provider} from 'react-redux'
 import store from './store'
 import About from './components/about';
 import AppFrame from './components/appFrame';
+import Portfolio from './components/portfolio';
 
 render (
   <Provider store={store}>
@@ -14,6 +15,7 @@ render (
       <Route path="/" component={AppFrame}>
         <Route path="/about" component={About} />
         <IndexRedirect to="/about" />
+        <Route path="/portfolio" component={Portfolio} />
       </Route>
     </Router>
   </Provider>,
