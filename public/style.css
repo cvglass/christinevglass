@@ -16,5 +16,20 @@
 }
 
 .portfolio {
+  padding: 10px;
+  font-family: 'Homemade Apple', cursive;
+}
 
+img {
+  min-height: 225px;
+  max-height: 225px;
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.thumbnail {
+  height: 500px;
 }
