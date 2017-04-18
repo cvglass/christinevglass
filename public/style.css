@@ -33,3 +33,9 @@ img {
 .thumbnail {
   height: 500px;
 }
+
+.contact-icons {
+  float: right;
+  font-size: 24px;
+  /*margin: 3px;*/
+}
